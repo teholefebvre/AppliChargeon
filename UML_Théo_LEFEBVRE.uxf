@@ -5,7 +5,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>510</x>
-      <y>150</y>
+      <y>250</y>
       <w>210</w>
       <h>110</h>
     </coordinates>
@@ -23,7 +23,7 @@ nivIntervention
     <id>UMLClass</id>
     <coordinates>
       <x>510</x>
-      <y>410</y>
+      <y>510</y>
       <w>210</w>
       <h>110</h>
     </coordinates>
@@ -40,8 +40,8 @@ achat
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>200</x>
-      <y>400</y>
+      <x>190</x>
+      <y>250</y>
       <w>190</w>
       <h>110</h>
     </coordinates>
@@ -58,7 +58,7 @@ distance
     <id>UMLClass</id>
     <coordinates>
       <x>900</x>
-      <y>140</y>
+      <y>240</y>
       <w>210</w>
       <h>130</h>
     </coordinates>
@@ -74,7 +74,7 @@ puissanceAbsorbé</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>710</x>
-      <y>180</y>
+      <y>280</y>
       <w>210</w>
       <h>50</h>
     </coordinates>
@@ -88,7 +88,7 @@ m2=0..*
     <id>Relation</id>
     <coordinates>
       <x>610</x>
-      <y>250</y>
+      <y>350</y>
       <w>50</w>
       <h>180</h>
     </coordinates>
@@ -101,22 +101,22 @@ m2=0..*
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>380</x>
-      <y>430</y>
-      <w>150</w>
-      <h>50</h>
+      <x>270</x>
+      <y>350</y>
+      <w>50</w>
+      <h>190</h>
     </coordinates>
     <panel_attributes>lt=-
-m1=0..*
+m1=1..*
 m2=0..1
 </panel_attributes>
-    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>200</x>
-      <y>230</y>
+      <x>190</x>
+      <y>520</y>
       <w>190</w>
       <h>100</h>
     </coordinates>
@@ -132,22 +132,22 @@ prixInter
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>290</x>
-      <y>320</y>
-      <w>50</w>
-      <h>100</h>
+      <x>370</x>
+      <y>550</y>
+      <w>160</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=0..*
-m2=0..*
+m2=1
 </panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>870</x>
-      <y>430</y>
+      <y>530</y>
       <w>210</w>
       <h>70</h>
     </coordinates>
@@ -162,13 +162,38 @@ prixFact
     <id>Relation</id>
     <coordinates>
       <x>710</x>
-      <y>460</y>
+      <y>560</y>
       <w>180</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=-
-m1=0..*
+m1=1
 m2=0..*</panel_attributes>
     <additional_attributes>10.0;10.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>40</x>
+      <y>400</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Intervention
+--
+dateInter</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>130</x>
+      <y>410</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=.
+</panel_attributes>
+    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
   </element>
 </diagram>
