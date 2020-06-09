@@ -18,11 +18,5 @@ namespace Chargeon
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
-        class Chargeur
-        {
-            private string type;
-            
-
-        }
     }
 }
